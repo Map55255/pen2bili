@@ -20,6 +20,7 @@ import argparse
 import base64
 parser = argparse.ArgumentParser()
 parser.add_argument('--encode_code', required=True, help='The encryption password')
+args = parser.parse_args()
 #args = parser.parse_args(['--encode_code', OStTDgda8RCfNXo-RJVQI0GADC7Cm2A5unuy7S6wmIE=''])
 
 key_bytes = (args.encode_code.encode())
