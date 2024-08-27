@@ -27,7 +27,7 @@ jobs:
           python3 -m pip install --upgrade pip
           pip3 install requests beautifulsoup4 lxml cryptography asyncio aiohttp nest_asyncio
       - name: Run
-        run: python3 ./run.py --token ${{ secrets.TOKEN }}
+        run: python3 ./run.py --encode_code ${{ secrets.TOKEN }}
 
 
       - name: Commit
