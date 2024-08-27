@@ -15,7 +15,7 @@ import argparse
 nest_asyncio.apply()
 
 today = datetime.now().strftime('%Y-%m-%d')
- from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet
 import argparse
 import base64
 parser = argparse.ArgumentParser()
