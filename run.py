@@ -429,11 +429,4 @@ deletion_status
 import os
 
 # 尝试删除文件
-file_path = 'data.json'
-try:
-    os.remove(file_path)
-    deletion_status = f"文件 {file_path} 已被删除。"
-except FileNotFoundError:
-    deletion_status = f"文件 {file_path} 不存在，无法删除。"
 
-deletion_status
