@@ -398,7 +398,7 @@ import os
 import shutil
 
 # Define the folder to be deleted
-temp_folder = 'image_directory'
+temp_folder = image_directory
 
 # Check if the folder exists
 if os.path.exists(temp_folder):
@@ -414,7 +414,7 @@ import os
 import shutil
 
 # Define the folder to be deleted
-temp_folder = 'cache_directory'
+temp_folder = cache_directory
 
 # Check if the folder exists
 if os.path.exists(temp_folder):
