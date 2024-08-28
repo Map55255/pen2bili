@@ -151,7 +151,7 @@ async def main():
         while not finished:
             tasks = []
             # 创建任务时，确保 work_id 每次增加36
-            for i in range(1):
+            for i in range(100):
                 work_id = start + i * 36
                 tasks.append(fetch_product_list(session, nonce, work_id, semaphore))
 
